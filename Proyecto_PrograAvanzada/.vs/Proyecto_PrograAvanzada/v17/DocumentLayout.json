@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\solicitud\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\solicitud\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\controllers\\tecnicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\controllers\\tecnicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\solicitud\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\solicitud\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\solicitud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\solicitud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\solicitud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\solicitud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\solicitud\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\solicitud\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\solicitud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\solicitud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\solicitud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\solicitud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\solicitud\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\solicitud\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\solicitud\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\solicitud\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\controllers\\solicitudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -223,32 +227,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TecnicoController.cs",
+              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Controllers\\TecnicoController.cs",
+              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Controllers\\TecnicoController.cs",
+              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Controllers\\TecnicoController.cs",
+              "RelativeToolTip": "Proyecto_PrograAvanzada\\Controllers\\TecnicoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T18:23:09.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Solicitud\\Index.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Solicitud\\Index.cshtml",
               "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Solicitud\\Index.cshtml",
               "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Solicitud\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADUAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T18:19:03.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Solicitud\\Edit.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Solicitud\\Edit.cshtml",
               "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Solicitud\\Edit.cshtml",
               "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Solicitud\\Edit.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T18:18:38.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Solicitud\\Details.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Solicitud\\Details.cshtml",
@@ -261,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Solicitud\\Delete.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Solicitud\\Delete.cshtml",
@@ -274,20 +291,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Solicitud\\Create.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Solicitud\\Create.cshtml",
               "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Solicitud\\Create.cshtml",
               "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Solicitud\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T18:16:31.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SolicitudController.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Controllers\\SolicitudController.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Controllers\\SolicitudController.cs",
@@ -300,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Notificacion\\Index.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Notificacion\\Index.cshtml",
@@ -313,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Notificacion\\Edit.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Notificacion\\Edit.cshtml",
@@ -326,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Notificacion\\Details.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Notificacion\\Details.cshtml",
@@ -339,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Notificacion\\Delete.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Notificacion\\Delete.cshtml",
@@ -352,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Notificacion\\Create.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Notificacion\\Create.cshtml",
@@ -365,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "NotificacionController.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Controllers\\NotificacionController.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Controllers\\NotificacionController.cs",
@@ -378,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Asignacion\\Edit.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Asignacion\\Edit.cshtml",
@@ -391,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Asignacion\\Details.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Asignacion\\Details.cshtml",
@@ -404,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Asignacion\\Delete.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Asignacion\\Delete.cshtml",
@@ -417,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Asignacion\\Create.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Asignacion\\Create.cshtml",
@@ -430,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Delete.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Delete.cshtml",
@@ -443,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Delete.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Usuario\\Delete.cshtml",
@@ -456,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Asignacion\\Index.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Asignacion\\Index.cshtml",
@@ -469,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "HistorialEstadoController.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Controllers\\HistorialEstadoController.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Controllers\\HistorialEstadoController.cs",
@@ -482,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Details.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Usuario\\Details.cshtml",
@@ -495,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\Usuario.cs",
@@ -508,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Create.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Create.cshtml",
@@ -521,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Notificacion.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Notificacion.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\Notificacion.cs",
@@ -534,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Details.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Details.cshtml",
@@ -547,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Index.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Index.cshtml",
@@ -560,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Edit.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Edit.cshtml",
@@ -573,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AsignacionController.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Controllers\\AsignacionController.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Controllers\\AsignacionController.cs",
@@ -586,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
@@ -599,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "HistorialEstado.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\HistorialEstado.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\HistorialEstado.cs",
@@ -612,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Create.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Usuario\\Create.cshtml",
@@ -625,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Shared\\_Layout.cshtml",
@@ -638,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Program.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Program.cs",
@@ -651,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\appsettings.json",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\appsettings.json",
@@ -664,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Tecnico.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Tecnico.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\Tecnico.cs",
@@ -677,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Asignacion.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Asignacion.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\Asignacion.cs",
@@ -690,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Edit.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Usuario\\Edit.cshtml",
@@ -703,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Solicitud.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Solicitud.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\Solicitud.cs",
@@ -716,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ServiciosSoporteContext.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\ServiciosSoporteContext.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\ServiciosSoporteContext.cs",
@@ -729,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Controllers\\UsuarioController.cs",
@@ -742,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\ErrorViewModel.cs",
