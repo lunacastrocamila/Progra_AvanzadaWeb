@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Proyecto_PrograAvanzada")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be0486ef3f4ffed8dd0844668e31f6e0164d051a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+921bacaefa0e7e82b24245c08706ef276cbd847a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Proyecto_PrograAvanzada")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Proyecto_PrograAvanzada")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
