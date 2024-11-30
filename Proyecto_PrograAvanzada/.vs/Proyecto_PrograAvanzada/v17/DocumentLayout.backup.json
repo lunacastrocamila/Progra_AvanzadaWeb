@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\controllers\\asignacionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\controllers\\asignacionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\models\\asignacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\models\\asignacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\usuario\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\usuario\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\usuario\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\usuario\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\usuario\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\usuario\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\usuario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\usuario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\models\\serviciossoportecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,20 +47,12 @@
       "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\usuario\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\usuario\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -49,14 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\models\\asignacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\models\\asignacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|c:\\fide\\programaci\u00F3n avanzada en web\\proyecto\\progra_avanzadaweb\\proyecto_prograavanzada\\proyecto_prograavanzada\\models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB366AF6-7821-43F3-85E1-57EEBC8A3507}|Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj|solutionrelative:proyecto_prograavanzada\\models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,33 +130,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AsignacionsController.cs",
+              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Controllers\\AsignacionsController.cs",
+              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Controllers\\AsignacionsController.cs",
+              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Controllers\\AsignacionsController.cs",
+              "RelativeToolTip": "Proyecto_PrograAvanzada\\Controllers\\AsignacionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:17:07.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwDgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T17:04:52.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Details.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Usuario\\Details.cshtml",
+              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Details.cshtml",
+              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Usuario\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T17:04:39.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Delete.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Usuario\\Delete.cshtml",
               "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Delete.cshtml",
               "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Usuario\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T16:44:58.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Create.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Usuario\\Create.cshtml",
               "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Create.cshtml",
               "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Usuario\\Create.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T16:43:20.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Shared\\_Layout.cshtml",
@@ -153,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Program.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Program.cs",
@@ -166,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\appsettings.json",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\appsettings.json",
@@ -179,20 +234,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\Usuario.cs",
               "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Usuario.cs",
               "RelativeToolTip": "Proyecto_PrograAvanzada\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T15:50:32.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "Tecnico.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Tecnico.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\Tecnico.cs",
@@ -205,7 +260,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "Asignacion.cs",
+              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Asignacion.cs",
+              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\Asignacion.cs",
+              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Asignacion.cs",
+              "RelativeToolTip": "Proyecto_PrograAvanzada\\Models\\Asignacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T15:48:01.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Usuario\\Edit.cshtml",
+              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Edit.cshtml",
+              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Usuario\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T17:05:01.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Solicitud.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Solicitud.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\Solicitud.cs",
@@ -218,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "ServiciosSoporteContext.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\ServiciosSoporteContext.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\ServiciosSoporteContext.cs",
@@ -231,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Controllers\\UsuarioController.cs",
@@ -244,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Notificacion.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Notificacion.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\Notificacion.cs",
@@ -257,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "HistorialEstado.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\HistorialEstado.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\HistorialEstado.cs",
@@ -270,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\ErrorViewModel.cs",
@@ -279,19 +360,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T15:48:24.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Asignacion.cs",
-              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Asignacion.cs",
-              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Models\\Asignacion.cs",
-              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Models\\Asignacion.cs",
-              "RelativeToolTip": "Proyecto_PrograAvanzada\\Models\\Asignacion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:48:01.057Z",
               "EditorCaption": ""
             }
           ]
