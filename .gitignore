@@ -1,0 +1,12 @@
+# Ignorar directorios
+/node_modules/
+/bin/
+/obj/
+
+# Ignorar archivos específicos
+*.log
+*.tmp
+
+# Ignorar configuraciones específicas del sistema operativo
+.DS_Store
+Thumbs.db
