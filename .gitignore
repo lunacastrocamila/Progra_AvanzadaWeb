@@ -1,10 +1,10 @@
 # Ignorar directorios de build y dependencias
 /node_modules/
-/bin/
-/obj/
-/.vs/
-/Debug/
-/Release/
+Proyecto_PrograAvanzada/bin/
+Proyecto_PrograAvanzada/obj/
+Proyecto_PrograAvanzada/.vs/
+Proyecto_PrograAvanzada/Debug/
+Proyecto_PrograAvanzada/Release/
 
 # Ignorar archivos temporales y del sistema operativo
 *.log
