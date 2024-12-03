@@ -7640,11 +7640,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sau15\\OneDrive\\Escritorio\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj",
+      "projectUniqueName": "C:\\Fide\\Programación Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj",
       "projectName": "Proyecto_PrograAvanzada",
-      "projectPath": "C:\\Users\\sau15\\OneDrive\\Escritorio\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj",
+      "projectPath": "C:\\Fide\\Programación Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj",
       "packagesPath": "C:\\Users\\sau15\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sau15\\OneDrive\\Escritorio\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\obj\\",
+      "outputPath": "C:\\Fide\\Programación Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g3IygikY85I=",
+  "dgSpecHash": "6aXESYvmNfU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sau15\\OneDrive\\Escritorio\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj",
+  "projectFilePath": "C:\\Fide\\Programación Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sau15\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\sau15\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
