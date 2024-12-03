@@ -17,161 +17,159 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proyecto_PrograAvanzada
 build_property.RootNamespace = Proyecto_PrograAvanzada
-build_property.ProjectDir = C:\Fide\Programación Avanzada en Web\Proyecto\Progra_AvanzadaWeb\Proyecto_PrograAvanzada\Proyecto_PrograAvanzada\
+build_property.ProjectDir = b:\Clones\Progra_AvanzadaWeb\Proyecto_PrograAvanzada\Proyecto_PrograAvanzada\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Fide\Programación Avanzada en Web\Proyecto\Progra_AvanzadaWeb\Proyecto_PrograAvanzada\Proyecto_PrograAvanzada
+build_property.MSBuildProjectDirectory = b:\Clones\Progra_AvanzadaWeb\Proyecto_PrograAvanzada\Proyecto_PrograAvanzada
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Asignacion/Create.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Asignacion/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hY2lvblxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Asignacion/Delete.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Asignacion/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hY2lvblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Asignacion/Details.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Asignacion/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hY2lvblxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Asignacion/Edit.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Asignacion/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hY2lvblxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Asignacion/Index.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Asignacion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNpZ25hY2lvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/HistorialEstado/Create.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/HistorialEstado/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsRXN0YWRvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/HistorialEstado/Delete.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/HistorialEstado/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsRXN0YWRvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/HistorialEstado/Details.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/HistorialEstado/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsRXN0YWRvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/HistorialEstado/Edit.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/HistorialEstado/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsRXN0YWRvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/HistorialEstado/Index.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/HistorialEstado/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFsRXN0YWRvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Home/Index.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Home/Privacy.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Notificacion/Create.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Notificacion/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjaW9uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Notificacion/Delete.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Notificacion/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjaW9uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Notificacion/Details.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Notificacion/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjaW9uXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Notificacion/Edit.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Notificacion/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjaW9uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Notificacion/Index.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Notificacion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2FjaW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Shared/Error.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Shared/_ValidationScriptsPartial.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Solicitud/Create.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Solicitud/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29saWNpdHVkXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Solicitud/Delete.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Solicitud/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29saWNpdHVkXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Solicitud/Details.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Solicitud/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29saWNpdHVkXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Solicitud/Edit.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Solicitud/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29saWNpdHVkXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Solicitud/Index.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Solicitud/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29saWNpdHVkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Tecnico/Create.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Tecnico/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjbmljb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Tecnico/Delete.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Tecnico/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjbmljb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Tecnico/Details.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Tecnico/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjbmljb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Tecnico/Edit.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Tecnico/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjbmljb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Tecnico/Index.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Tecnico/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjbmljb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Usuario/Create.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Usuario/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Usuario/Delete.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Usuario/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Usuario/Details.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Usuario/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Usuario/Edit.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Usuario/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Usuario/Index.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/_ViewImports.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/_ViewStart.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Fide/Programación Avanzada en Web/Proyecto/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Shared/_Layout.cshtml]
+[b:/Clones/Progra_AvanzadaWeb/Proyecto_PrograAvanzada/Proyecto_PrograAvanzada/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-no7bfzqqld
