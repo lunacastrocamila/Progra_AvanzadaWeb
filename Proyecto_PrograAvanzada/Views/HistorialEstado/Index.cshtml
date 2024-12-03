@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Proyecto_PrograAvanzada.Models.HistorialEstado>
+<h1>Historial de Estado</h1>
+
+<p>
+    <a asp-action="Create">Agregar Nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EstadoAnterior)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstadoNuevo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaCambio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comentarios)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdSolicitudNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EstadoAnterior)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EstadoNuevo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaCambio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comentarios)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdSolicitudNavigation.IdSolicitud)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdHistorial">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.IdHistorial">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdHistorial">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
