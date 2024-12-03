@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,71 +86,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
-              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
-              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADcAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T18:41:16.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Tecnico\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Tecnico\\Index.cshtml",
-              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Tecnico\\Index.cshtml",
-              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Tecnico\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T18:41:12.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Solicitud\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Solicitud\\Index.cshtml",
-              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Solicitud\\Index.cshtml",
-              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Solicitud\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T18:41:07.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Notificacion\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Notificacion\\Index.cshtml",
-              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Notificacion\\Index.cshtml",
-              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Notificacion\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T18:41:01.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Index.cshtml",
-              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Index.cshtml",
-              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Index.cshtml",
-              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Index.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T18:40:49.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Asignacion\\Index.cshtml",
@@ -164,6 +99,66 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T18:41:16.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Tecnico\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Tecnico\\Index.cshtml",
+              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Tecnico\\Index.cshtml",
+              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Tecnico\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T18:41:12.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Solicitud\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Solicitud\\Index.cshtml",
+              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Solicitud\\Index.cshtml",
+              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Solicitud\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T18:41:07.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Notificacion\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\Notificacion\\Index.cshtml",
+              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Notificacion\\Index.cshtml",
+              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Notificacion\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T18:41:01.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Index.cshtml",
+              "RelativeDocumentMoniker": "Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Index.cshtml",
+              "ToolTip": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Index.cshtml",
+              "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\HistorialEstado\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T18:40:49.059Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Fide\\Programaci\u00F3n Avanzada en Web\\Proyecto\\Progra_AvanzadaWeb\\Proyecto_PrograAvanzada\\Proyecto_PrograAvanzada\\Views\\Shared\\_Layout.cshtml",
@@ -172,8 +167,7 @@
               "RelativeToolTip": "Proyecto_PrograAvanzada\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-30T18:31:54.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T18:31:54.023Z"
             }
           ]
         }
