@@ -23,7 +23,7 @@ Thumbs.db
 *.editorconfig
 
 # Ignorar archivos de configuración específicos de tu proyecto
-Proyecto_PrograAvanzada/.vs/
+*/.vs/
 
 # No ignorar archivos importantes para el proyecto
 !*.cs
