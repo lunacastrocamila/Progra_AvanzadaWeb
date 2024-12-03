@@ -2,9 +2,11 @@
 /node_modules/
 Proyecto_PrograAvanzada/bin/
 Proyecto_PrograAvanzada/obj/
-Proyecto_PrograAvanzada/.vs/
 Proyecto_PrograAvanzada/Debug/
 Proyecto_PrograAvanzada/Release/
+
+# Ignorar archivos de configuración específicos de tu proyecto
+Proyecto_PrograAvanzada/.vs/
 
 # Ignorar archivos temporales y del sistema operativo
 *.log
@@ -21,9 +23,6 @@ Thumbs.db
 *.ide.*
 *.vsidx
 *.editorconfig
-
-# Ignorar archivos de configuración específicos de tu proyecto
-*.vs/
 
 # No ignorar archivos importantes para el proyecto
 !*.cs
