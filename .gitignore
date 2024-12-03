@@ -7,6 +7,7 @@ Proyecto_PrograAvanzada/Release/
 
 # Ignorar archivos de configuración específicos de tu proyecto
 Proyecto_PrograAvanzada/.vs/
+.vs/
 
 # Ignorar archivos temporales y del sistema operativo
 *.log
