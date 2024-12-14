@@ -1,0 +1,22 @@
+﻿@model Proyecto_PrograAvanzada.Models.Usuario
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container mt-5">
+    <h2>Login</h2>
+    <form asp-action="Login" method="post">
+        <div class="mb-3">
+            <label for="CorreoElectronico" class="form-label">Correo Electrónico</label>
+            <input asp-for="CorreoElectronico" class="form-control" />
+            <span asp-validation-for="CorreoElectronico" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Contraseña" class="form-label">Contraseña</label>
+            <input asp-for="Contraseña" type="password" class="form-control" />
+            <span asp-validation-for="Contraseña" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+    </form>
+</div>
