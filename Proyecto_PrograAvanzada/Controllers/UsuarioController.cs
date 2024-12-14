@@ -11,6 +11,37 @@ namespace Proyecto_PrograAvanzada.Controllers
 {
     public class UsuarioController : Controller
     {
+        public async Task<IActionResult> Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(Usuario usuario)
+        {
+            if (ModelState.IsValid)
+            {
+                // Verifica las credenciales en la base de datos
+                var user = await _context.Usuarios
+                    .FirstOrDefaultAsync(u => u.CorreoElectronico == usuario.CorreoElectronico && u.Contraseña == usuario.Contraseña);
+
+                if (user != null)
+                {
+                    // Almacenar datos del usuario en sesión
+                    HttpContext.Session.SetInt32("UserId", user.IdUsuario);
+                    HttpContext.Session.SetString("UserName", user.Nombre);
+                    HttpContext.Session.SetString("UserRole", user.Rol);
+
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    ViewBag.Error = "Credenciales incorrectas.";
+                }
+            }
+            return View(usuario);
+        }
         private readonly ServiciosSoporteContext _context;
 
         public UsuarioController(ServiciosSoporteContext context)
@@ -152,5 +183,11 @@ namespace Proyecto_PrograAvanzada.Controllers
         {
             return _context.Usuarios.Any(e => e.IdUsuario == id);
         }
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear(); // Limpia todos los datos de sesión
+            return RedirectToAction("Login", "Usuario"); // Redirige al formulario de login
+        }
+
     }
 }
