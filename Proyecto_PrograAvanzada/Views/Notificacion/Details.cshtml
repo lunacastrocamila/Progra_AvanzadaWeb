@@ -1,44 +1,44 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Notificacion
 
-<h1>Detalles</h1>
+<h1 class ="details-title">Detalles</h1>
 
-<div>
-    <h4>Notificación</h4>
+<div class="details-container">
+    <h4 class="details-section">Notificación</h4>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
+    <dl class="row details-details">
+        <dt class="col-sm-2 details-label">
             @Html.DisplayNameFor(model => model.Mensaje)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 details-value">
             @Html.DisplayFor(model => model.Mensaje)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 details-label">
             @Html.DisplayNameFor(model => model.FechaNotificacion)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 details-value">
             @Html.DisplayFor(model => model.FechaNotificacion)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 details-label">
             @Html.DisplayNameFor(model => model.Visto)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 details-value">
             @Html.DisplayFor(model => model.Visto)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 details-label">
             @Html.DisplayNameFor(model => model.IdSolicitudNavigation)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 details-value">
             @Html.DisplayFor(model => model.IdSolicitudNavigation.IdSolicitud)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 details-label">
             @Html.DisplayNameFor(model => model.IdUsuarioNavigation)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 details-value">
             @Html.DisplayFor(model => model.IdUsuarioNavigation.IdUsuario)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdNotificacion">Editar</a> |
-    <a asp-action="Index">Volver a la lista</a>
+    <a asp-action="Edit" asp-route-id="@Model?.IdNotificacion" class="btn btn-primary details-edit-button">Editar</a> |
+    <a asp-action="Index" class="btn btn-secondary details-return-button">Volver a la lista</a>
 </div>

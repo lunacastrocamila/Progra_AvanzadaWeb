@@ -1,12 +1,29 @@
 ﻿@model IEnumerable<Proyecto_PrograAvanzada.Models.Notificacion>
 
-<h1>Notificaciones</h1>
 
-<p>
-    <a asp-action="Create">Agregar Nueva</a>
+<div class="container mt-4">
+    <div class="text-center nav-grid-container">
+        <div class="nav-grid">
+            <a class="nav-link nav-item" asp-controller="Usuario" asp-action="Index">
+                <img src="~/images/support1.jpg" alt="Soporte 1" class="rounded shadow nav-image"  />
+            </a>
+            <a class="nav-link nav-item" asp-controller="Solicitud" asp-action="Index">
+                <img src="~/images/support2.jpg" alt="Soporte 2" class="rounded shadow nav-image" />
+            </a>
+            <a class="nav-link nav-item" asp-controller="Notificacion" asp-action="Index">
+                <img src="~/images/support3.jpg" alt="Soporte 3" class="rounded shadow nav-image" />
+            </a>
+            <a class="nav-link nav-item" asp-controller="Tecnico" asp-action="Index">
+                <img src="~/images/support4.jpg" alt="Soporte 4" class="rounded shadow nav-image" />
+            </a>
+        </div>
+    </div>
+    <h1 class="animated-title">Notificaciones</h1>
+    <p class="add-new-link">
+        <a asp-action="Create" class="btn btn-primary">Agregar Nueva</a>
 </p>
-<table class="table">
-    <thead>
+    <table class ="table table-hover assignment-table">
+        <thead class="table-header">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Mensaje)
@@ -23,7 +40,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.IdUsuarioNavigation)
             </th>
-            <th></th>
+                <th class="action-column"></th>
         </tr>
     </thead>
     <tbody>
@@ -45,9 +62,9 @@
                 @Html.DisplayFor(modelItem => item.IdUsuarioNavigation.IdUsuario)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdNotificacion">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.IdNotificacion">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdNotificacion">Eliminar</a>
+                        <a asp-action="Edit" asp-route-id="@item.IdNotificacion" class="btn btn-warning btn-sm">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.IdNotificacion" class="btn btn-info btn-sm">Detalles</a> |
+                        <a asp-action="Delete" asp-route-id="@item.IdNotificacion" class="btn btn-danger btn-sm">Eliminar</a>
             </td>
         </tr>
 }

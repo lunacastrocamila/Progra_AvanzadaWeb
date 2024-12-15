@@ -1,19 +1,15 @@
 @model Proyecto_PrograAvanzada.Models.Usuario
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Agregar</title>
-</head>
-<body>
+<h1>Agregar usuario</h1>
 
 <h4>Usuario</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
+<div class ="form-container">
+    <h4 class="form-title">Detalles del Usuario</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <form asp-action="Create" class="custom-form">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Nombre" class="control-label"></label>
@@ -41,15 +37,13 @@
                 <span asp-validation-for="Rol" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Agregar" class="btn btn-primary" />
+                    <input type="submit" value="Agregar" class="btn btn-primary custom-button" />
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Regresar a la lista</a>
 </div>
 
-</body>
-</html>
+<div class="text-center mt-4">
+    <a asp-action="Index" class="btn btn-secondary return-button">Regresar a la lista</a>
+</div>

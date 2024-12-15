@@ -1,6 +1,22 @@
 ﻿@model IEnumerable<Proyecto_PrograAvanzada.Models.HistorialEstado>
-<h1>Historial de Estado</h1>
-
+<h1 class="animated-title">Historial de Estado</h1>
+<div class="container mt-4">
+    <div class="text-center">
+        <div class="image-grid">
+            <a class="nav-link" asp-controller="Usuario" asp-action="Index">
+                <img src="~/images/support1.jpg" alt="Soporte 1" class="rounded shadow" />
+            </a>
+            <a class="nav-link" asp-controller="Solicitud" asp-action="Index">
+                <img src="~/images/support2.jpg" alt="Soporte 2" class="rounded shadow" />
+            </a>
+            <a class="nav-link" asp-controller="Notificacion" asp-action="Index">
+                <img src="~/images/support3.jpg" alt="Soporte 3" class="rounded shadow" />
+            </a>
+            <a class="nav-link" asp-controller="Tecnico" asp-action="Index">
+                <img src="~/images/support4.jpg" alt="Soporte 4" class="rounded shadow" />
+            </a>
+        </div>
+    </div>
 <p>
     <a asp-action="Create">Agregar Nuevo</a>
 </p>

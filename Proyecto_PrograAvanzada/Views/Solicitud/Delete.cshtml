@@ -1,47 +1,47 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Solicitud
 
-<h1>Delete</h1>
+<h1 class="delete-title">Eliminar</h1>
 
-<h3>¿Seguro(a) que deseas eliminar la solicitud?</h3>
-<div>
-    <h4>Solicitud</h4>
+<h3 class="delete-subtitle">¿Seguro(a) que deseas eliminar la solicitud?</h3>
+<div class="delete-container">
+    <h4 class="delete-section">Solicitud</h4>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
+    <dl class="row delete-details">
+        <dt class="col-sm-2 delete-label">
             @Html.DisplayNameFor(model => model.Descripcion)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 delete-value">
             @Html.DisplayFor(model => model.Descripcion)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 delete-label">
             @Html.DisplayNameFor(model => model.FechaCreacion)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 delete-value">
             @Html.DisplayFor(model => model.FechaCreacion)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 delete-label">
             @Html.DisplayNameFor(model => model.Estado)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 delete-value">
             @Html.DisplayFor(model => model.Estado)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 delete-label">
             @Html.DisplayNameFor(model => model.Prioridad)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 delete-value">
             @Html.DisplayFor(model => model.Prioridad)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 delete-label">
             @Html.DisplayNameFor(model => model.IdUsuarioNavigation)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 delete-value">
             @Html.DisplayFor(model => model.IdUsuarioNavigation.IdUsuario)
         </dd>
     </dl>
     
-    <form asp-action="Delete">
+    <form asp-action="Delete" class="delete-form">
         <input type="hidden" asp-for="IdSolicitud" />
-        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
-        <a asp-action="Index">Volver a la lista</a>
+        <input type="submit" value="Eliminar" class="btn btn-danger delete-button" /> |
+        <a asp-action="Index" class="btn btn-secondary return-button">Volver a la lista</a>
     </form>
 </div>
