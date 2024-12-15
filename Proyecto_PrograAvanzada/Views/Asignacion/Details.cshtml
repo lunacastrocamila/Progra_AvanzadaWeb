@@ -1,44 +1,44 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Asignacion
 
-<h1>Detailes</h1>
+<h1 class="details-title">Detalles</h1>
 
-<div>
-    <h4>Asignación</h4>
+<div class="details-container">
+    <h4 class="details-section">Asignación</h4>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
+    <dl class="row details-details">
+        <dt class="col-sm-2 details-label">
             @Html.DisplayNameFor(model => model.FechaAsignacion)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 details-value">
             @Html.DisplayFor(model => model.FechaAsignacion)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 details-label">
             @Html.DisplayNameFor(model => model.FechaInicio)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 details-value">
             @Html.DisplayFor(model => model.FechaInicio)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 details-label">
             @Html.DisplayNameFor(model => model.FechaCierre)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 details-value">
             @Html.DisplayFor(model => model.FechaCierre)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 details-label">
             @Html.DisplayNameFor(model => model.IdSolicitudNavigation)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 details-value">
             @Html.DisplayFor(model => model.IdSolicitudNavigation.IdSolicitud)
         </dd>
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2 details-label">
             @Html.DisplayNameFor(model => model.IdTecnicoNavigation)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10 details-value">
             @Html.DisplayFor(model => model.IdTecnicoNavigation.IdTecnico)
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdAsignacion">Editar</a> |
-    <a asp-action="Index">Volver a la lista</a>
+<div class="details-actions">
+    <a asp-action="Edit" asp-route-id="@Model?.IdAsignacion" class="btn btn-primary details-edit-button">Editar</a> |
+    <a asp-action="Index" class="btn btn-secondary details-return-button">Volver a la lista</a>
 </div>

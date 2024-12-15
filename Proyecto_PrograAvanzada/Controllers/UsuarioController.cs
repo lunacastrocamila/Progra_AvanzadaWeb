@@ -22,13 +22,13 @@ namespace Proyecto_PrograAvanzada.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Verifica las credenciales en la base de datos
+                // Para verificar las credenciales en la base de datos
                 var user = await _context.Usuarios
                     .FirstOrDefaultAsync(u => u.CorreoElectronico == usuario.CorreoElectronico && u.Contraseña == usuario.Contraseña);
 
                 if (user != null)
                 {
-                    // Almacenar datos del usuario en sesión
+                    // Acá se almacenan datos del usuario en sesión
                     HttpContext.Session.SetInt32("UserId", user.IdUsuario);
                     HttpContext.Session.SetString("UserName", user.Nombre);
                     HttpContext.Session.SetString("UserRole", user.Rol);
@@ -185,8 +185,8 @@ namespace Proyecto_PrograAvanzada.Controllers
         }
         public IActionResult Logout()
         {
-            HttpContext.Session.Clear(); // Limpia todos los datos de sesión
-            return RedirectToAction("Login", "Usuario"); // Redirige al formulario de login
+            HttpContext.Session.Clear(); // Para limpiar todos los datos de sesión
+            return RedirectToAction("Login", "Usuario"); // Acá se redirige al formulario de login
         }
 
     }
