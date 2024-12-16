@@ -49,7 +49,6 @@ namespace Proyecto_PrograAvanzada.Controllers
         public IActionResult Create()
         {
             ViewData["IdSolicitud"] = new SelectList(_context.Solicitudes, "IdSolicitud", "IdSolicitud");
-            ViewData["IdUsuario"] = new SelectList(_context.Usuarios, "IdUsuario", "IdUsuario");
             return View();
         }
 
@@ -58,18 +57,31 @@ namespace Proyecto_PrograAvanzada.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdNotificacion,IdUsuario,IdSolicitud,Mensaje,FechaNotificacion,Visto")] Notificacion notificacion)
+        public async Task<IActionResult> Create([Bind("IdNotificacion,IdSolicitud,Mensaje,FechaNotificacion,Visto")] Notificacion notificacion)
         {
+            // Obtener el ID del usuario logueado desde la sesión
+            var userId = HttpContext.Session.GetInt32("UserId");
+
+            if (userId == null)
+            {
+                // Si no hay un usuario logueado, redirigir al inicio de sesión
+                return RedirectToAction("Login", "Usuario");
+            }
+
+            notificacion.IdUsuario = userId.Value; // Asignar el ID del usuario logueado
+            notificacion.FechaNotificacion = DateTime.Now; // Asignar la fecha actual
+
             if (ModelState.IsValid)
             {
                 _context.Add(notificacion);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             ViewData["IdSolicitud"] = new SelectList(_context.Solicitudes, "IdSolicitud", "IdSolicitud", notificacion.IdSolicitud);
-            ViewData["IdUsuario"] = new SelectList(_context.Usuarios, "IdUsuario", "IdUsuario", notificacion.IdUsuario);
             return View(notificacion);
         }
+
 
         // GET: Notificacion/Edit/5
         public async Task<IActionResult> Edit(int? id)
