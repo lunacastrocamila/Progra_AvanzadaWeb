@@ -1,55 +1,58 @@
 @model Proyecto_PrograAvanzada.Models.Usuario
 
-<!DOCTYPE html>
+<h1>Editar Usuario</h1>
 
-<h1 class="edit-title">Editar Usuario</h1>
+<div class="form-container">
+    <h4>Detalles del Usuario</h4>
+    <hr />
+    <form asp-action="Edit" class="custom-form">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="IdUsuario" />
 
-<div class="edit-container">
-    <h4 lass="edit-section-title">Detalles del Usuario</h4>
-    <hr class="edit-divider" />
-<div class="row">
-        <div class="col-md-6 edit-form-container">
-            <form asp-action="Edit" class="edit-form">
-                <div asp-validation-summary="ModelOnly" class="text-danger edit-validation-summary"></div>
-            <input type="hidden" asp-for="IdUsuario" />
-            <div class="form-group">
-                    <label asp-for="Nombre" class="control-label edit-label"></label>
-                    <input asp-for="Nombre" class="form-control edit-input" />
-                    <span asp-validation-for="Nombre" class="text-danger edit-validation-message"></span>
-            </div>
-            <div class="form-group">
-                    <label asp-for="Apellido" class="control-label edit-label"></label>
-                    <input asp-for="Apellido" class="form-control edit-input" />
-                    <span asp-validation-for="Apellido" class="text-danger edit-validation-message"></span>
-            </div>
-            <div class="form-group">
-                    <label asp-for="CorreoElectronico" class="control-label edit-label"></label>
-                    <input asp-for="CorreoElectronico" class="form-control edit-input" />
-                    <span asp-validation-for="CorreoElectronico" class="text-danger edit-validation-message"></span>
-            </div>
-            <div class="form-group">
-                    <label asp-for="Contraseña" class="control-label edit-label"></label>
-                    <input asp-for="Contraseña" class="form-control edit-input" />
-                    <span asp-validation-for="Contraseña" class="text-danger edit-validation-message"></span>
-            </div>
-            <div class="form-group">
-                    <label asp-for="Rol" class="control-label edit-label"></label>
-                    <input asp-for="Rol" class="form-control edit-input" />
-                    <span asp-validation-for="Rol" class="text-danger edit-validation-message"></span>
-            </div>
-                <div class="form-group edit-button-group">
-                    <input type="submit" value="Guardar" class="btn btn-primary edit-save-button" />
-            </div>
-        </form>
+        <div class="form-group">
+            <label asp-for="Nombre" class="control-label"></label>
+            <input asp-for="Nombre" class="form-control" />
+            <span asp-validation-for="Nombre" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Apellido" class="control-label"></label>
+            <input asp-for="Apellido" class="form-control" />
+            <span asp-validation-for="Apellido" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CorreoElectronico" class="control-label"></label>
+            <input asp-for="CorreoElectronico" class="form-control" />
+            <span asp-validation-for="CorreoElectronico" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Contraseña" class="control-label"></label>
+            <input asp-for="Contraseña" type="password" class="form-control" />
+            <span asp-validation-for="Contraseña" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Rol" class="control-label"></label>
+            <select asp-for="Rol" class="form-control">
+                <option value="">Seleccione un rol</option>
+                <option value="Administrador">Administrador</option>
+                <option value="Usuario">Usuario</option>
+                <option value="Técnico">Técnico</option>
+            </select>
+            <span asp-validation-for="Rol" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Guardar" class="btn btn-primary" />
+        </div>
+    </form>
+    <div class="text-center mt-4">
+        <a asp-action="Index" class="btn btn-secondary">Regresar a la lista</a>
     </div>
 </div>
-</div>
 
-    <div class="edit-back-container">
-        <a asp-action="Index" class="btn btn-secondary edit-back-button">Volver a la lista</a>
-</div>
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
+    @await Html.PartialAsync("_ValidationScriptsPartial")
 }

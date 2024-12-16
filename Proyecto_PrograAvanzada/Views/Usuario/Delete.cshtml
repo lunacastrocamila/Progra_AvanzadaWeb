@@ -1,47 +1,26 @@
 @model Proyecto_PrograAvanzada.Models.Usuario
 
-<h1 class="delete-title">Eliminar</h1>
+<h1>Eliminar Usuario</h1>
 
-<h3 class="delete-subtitle">¿Seguro(a) que desea eliminar el usuario?</h3>
+<h3>¿Seguro(a) que desea eliminar este usuario?</h3>
+
 <div class="delete-container">
-    <h4 class="delete-section">Usuario</h4>
-    <hr />
-    <dl class="row delete-details">
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.Nombre)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.Nombre)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.Apellido)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.Apellido)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.CorreoElectronico)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.CorreoElectronico)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.Contraseña)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.Contraseña)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.Rol)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.Rol)
-        </dd>
+    <dl class="row">
+        <dt class="col-sm-2">Nombre</dt>
+        <dd class="col-sm-10">@Model.Nombre</dd>
+
+        <dt class="col-sm-2">Apellido</dt>
+        <dd class="col-sm-10">@Model.Apellido</dd>
+
+        <dt class="col-sm-2">Correo Electrónico</dt>
+        <dd class="col-sm-10">@Model.CorreoElectronico</dd>
+
+        <dt class="col-sm-2">Rol</dt>
+        <dd class="col-sm-10">@Model.Rol</dd>
     </dl>
-    
-    <form asp-action="Delete" class="delete-form">
+    <form asp-action="Delete">
         <input type="hidden" asp-for="IdUsuario" />
-        <input type="submit" value="Eliminar" class="btn btn-danger delete-button" /> |
-        <a asp-action="Index" class="btn btn-secondary return-button">Volver a la lista</a>
+        <input type="submit" value="Eliminar" class="btn btn-danger" onclick="return confirm('¿Está seguro que desea eliminar este usuario?');" />
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
     </form>
 </div>

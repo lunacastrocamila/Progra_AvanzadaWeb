@@ -20,28 +20,25 @@ namespace Proyecto_PrograAvanzada.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(Usuario usuario)
         {
-            if (ModelState.IsValid)
+            var user = await _context.Usuarios
+                .FirstOrDefaultAsync(u => u.CorreoElectronico == usuario.CorreoElectronico && u.Contraseña == usuario.Contraseña);
+
+            if (user != null)
             {
-                // Para verificar las credenciales en la base de datos
-                var user = await _context.Usuarios
-                    .FirstOrDefaultAsync(u => u.CorreoElectronico == usuario.CorreoElectronico && u.Contraseña == usuario.Contraseña);
+                HttpContext.Session.SetInt32("UserId", user.IdUsuario);
+                HttpContext.Session.SetString("UserName", user.Nombre);
+                HttpContext.Session.SetString("UserRole", user.Rol);
 
-                if (user != null)
-                {
-                    // Acá se almacenan datos del usuario en sesión
-                    HttpContext.Session.SetInt32("UserId", user.IdUsuario);
-                    HttpContext.Session.SetString("UserName", user.Nombre);
-                    HttpContext.Session.SetString("UserRole", user.Rol);
-
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    ViewBag.Error = "Credenciales incorrectas.";
-                }
+                return RedirectToAction("Index", "Home");
             }
+            else
+            {
+                ViewBag.Error = "Credenciales incorrectas.";
+            }
+
             return View(usuario);
         }
+
         private readonly ServiciosSoporteContext _context;
 
         public UsuarioController(ServiciosSoporteContext context)

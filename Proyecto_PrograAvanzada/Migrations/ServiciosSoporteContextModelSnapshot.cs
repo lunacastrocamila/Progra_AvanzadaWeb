@@ -228,26 +228,31 @@ namespace Proyecto_PrograAvanzada.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdUsuario"));
 
                     b.Property<string>("Apellido")
+                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)")
                         .HasColumnName("apellido");
 
                     b.Property<string>("Contraseña")
+                        .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)")
                         .HasColumnName("contraseña");
 
                     b.Property<string>("CorreoElectronico")
+                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)")
                         .HasColumnName("correoElectronico");
 
                     b.Property<string>("Nombre")
+                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)")
                         .HasColumnName("nombre");
 
                     b.Property<string>("Rol")
+                        .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)")
                         .HasColumnName("rol");
@@ -256,8 +261,7 @@ namespace Proyecto_PrograAvanzada.Migrations
                         .HasName("PK__Usuario");
 
                     b.HasIndex(new[] { "CorreoElectronico" }, "UQ_Usuario_Correo")
-                        .IsUnique()
-                        .HasFilter("[correoElectronico] IS NOT NULL");
+                        .IsUnique();
 
                     b.ToTable("Usuarios");
                 });
