@@ -1,47 +1,23 @@
 ﻿@model Proyecto_PrograAvanzada.Models.HistorialEstado
 
-<h1>Eliminar</h1>
-
-<h3>¿Seguro(a) que desea eliminar el estado?</h3>
-<div>
-    <h4>Historial de Estado</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EstadoAnterior)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EstadoAnterior)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EstadoNuevo)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EstadoNuevo)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaCambio)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FechaCambio)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Comentarios)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Comentarios)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdSolicitudNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdSolicitudNavigation.IdSolicitud)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="IdHistorial" />
-        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
-        <a asp-action="Index">Volver a la lista</a>
-    </form>
+<div class="container mt-4">
+    <h1 class="delete-title">Eliminar</h1>
+    <h3 class="delete-subtitle">¿Seguro(a) que desea eliminar este historial de estado?</h3>
+    <div class="delete-container">
+        <dl class="row delete-details">
+            <dt class="col-sm-3">Estado Anterior</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.EstadoAnterior)</dd>
+            <dt class="col-sm-3">Estado Nuevo</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.EstadoNuevo)</dd>
+            <dt class="col-sm-3">Fecha de Cambio</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.FechaCambio)</dd>
+            <dt class="col-sm-3">Comentarios</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Comentarios)</dd>
+        </dl>
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="IdHistorial" />
+            <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+            <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+        </form>
+    </div>
 </div>
