@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Reporte de solicitudes";
+}
+
+@model IEnumerable<Proyecto_PrograAvanzada.Models.ReporteSolicitudDetalle>
+
+<div class="container mt-5">
+    <h2 class="text-center">Reporte de Solicitudes Atendidas por Técnico</h2>
+
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Id Solicitud</th>
+                <th>Usuario</th>
+                <th>Descripción</th>
+                <th>Fecha Creación</th>
+                <th>Estado</th>
+                <th>Técnico</th>
+                <th>Mensaje Notificación</th>
+                <th>Fecha Notificación</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.IdSolicitud</td>
+                    <td>@item.NombreUsuario</td>
+                    <td>@item.Descripcion</td>
+                    <td>@item.FechaCreacion?.ToString("dd/MM/yyyy")</td>
+                    <td>@item.Estado</td>
+                    <td>@item.NombreTecnico</td>
+                    <td>@item.MensajeNotificacion</td>
+                    <td>@(item.FechaNotificacion.HasValue ? item.FechaNotificacion.Value.ToString("dd/MM/yyyy HH:mm") : "N/A")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Paginación -->
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+                    <a class="page-link" asp-action="SolicitudesPorTecnico" asp-route-pageNumber="@i">
+                        @i
+                    </a>
+                </li>
+            }
+        </ul>
+    </nav>
+</div>

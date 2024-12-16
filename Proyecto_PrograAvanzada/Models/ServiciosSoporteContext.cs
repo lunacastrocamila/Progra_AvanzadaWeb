@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Proyecto_PrograAvanzada.Models;
 
 namespace Proyecto_PrograAvanzada.Models;
 
@@ -161,4 +162,6 @@ public class ServiciosSoporteContext : DbContext
                 .HasColumnName("rol");
         });
     }
+
+public DbSet<Proyecto_PrograAvanzada.Models.ReporteSolicitudDetalle> ReporteSolicitudDetalle { get; set; } = default!;
 }

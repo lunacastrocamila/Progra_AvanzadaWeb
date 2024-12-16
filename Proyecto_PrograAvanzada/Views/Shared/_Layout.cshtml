@@ -38,6 +38,12 @@
                                 <li class="nav-item">
                                     <a class="nav-link" asp-controller="HistorialEstado" asp-action="Index"><i class="bi bi-clock-history"></i> Historiales</a>
                                 </li>
+                                <!-- Menú de reportes -->
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="ReporteSolicitudDetalle" asp-action="SolicitudesPorTecnico">
+                                        <i class="bi bi-graph-up"></i> Reportes de Solicitudes
+                                    </a>
+                                </li>
                             }
 
                             @if (userRole == "Técnico" || userRole == "Administrador")
@@ -55,7 +61,7 @@
                             {
                                 <!-- Opciones exclusivas para Clientes -->
                                 <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Solicitud" asp-action="Create"><i class="bi bi-plus-circle"></i> Nueva Solicitud</a>
+                                    <a class="nav-link" asp-controller="Solicitud" asp-action="Index"><i class="bi bi-list-ul"></i> Lista de Solicitudes</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" asp-controller="Notificacion" asp-action="Index"><i class="bi bi-bell"></i> Notificaciones</a>

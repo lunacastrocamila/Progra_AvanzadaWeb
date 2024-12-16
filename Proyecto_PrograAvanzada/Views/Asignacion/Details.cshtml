@@ -6,19 +6,19 @@
 
         <dl class="row">
             <dt class="col-sm-3">Fecha de Asignación</dt>
-            <dd class="col-sm-9">@Model.FechaAsignacion</dd>
+            <dd class="col-sm-9">@Model.FechaAsignacion?.ToString("dd/MM/yyyy")</dd>
 
             <dt class="col-sm-3">Fecha de Inicio</dt>
-            <dd class="col-sm-9">@Model.FechaInicio</dd>
+            <dd class="col-sm-9">@Model.FechaInicio?.ToString("dd/MM/yyyy")</dd>
 
             <dt class="col-sm-3">Fecha de Cierre</dt>
-            <dd class="col-sm-9">@Model.FechaCierre</dd>
+            <dd class="col-sm-9">@Model.FechaCierre?.ToString("dd/MM/yyyy")</dd>
 
             <dt class="col-sm-3">Solicitud</dt>
-            <dd class="col-sm-9">@Model.IdSolicitudNavigation?.IdSolicitud</dd>
+            <dd class="col-sm-9">@Model.IdSolicitudNavigation?.Descripcion</dd>
 
             <dt class="col-sm-3">Técnico</dt>
-            <dd class="col-sm-9">@Model.IdSolicitudNavigation?.IdUsuarioNavigation?.Nombre</dd>
+            <dd class="col-sm-9">@Model.IdTecnicoNavigation?.IdUsuarioNavigation?.Nombre @Model.IdTecnicoNavigation?.IdUsuarioNavigation?.Apellido</dd>
         </dl>
 
         <div class="text-center">
