@@ -1,44 +1,29 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Notificacion
 
-<h1 class ="details-title">Detalles</h1>
+<div class="container mt-4">
+    <div class="details-container">
+        <h1 class="details-title">Detalles de la Notificación</h1>
 
-<div class="details-container">
-    <h4 class="details-section">Notificación</h4>
-    <hr />
-    <dl class="row details-details">
-        <dt class="col-sm-2 details-label">
-            @Html.DisplayNameFor(model => model.Mensaje)
-        </dt>
-        <dd class="col-sm-10 details-value">
-            @Html.DisplayFor(model => model.Mensaje)
-        </dd>
-        <dt class="col-sm-2 details-label">
-            @Html.DisplayNameFor(model => model.FechaNotificacion)
-        </dt>
-        <dd class="col-sm-10 details-value">
-            @Html.DisplayFor(model => model.FechaNotificacion)
-        </dd>
-        <dt class="col-sm-2 details-label">
-            @Html.DisplayNameFor(model => model.Visto)
-        </dt>
-        <dd class="col-sm-10 details-value">
-            @Html.DisplayFor(model => model.Visto)
-        </dd>
-        <dt class="col-sm-2 details-label">
-            @Html.DisplayNameFor(model => model.IdSolicitudNavigation)
-        </dt>
-        <dd class="col-sm-10 details-value">
-            @Html.DisplayFor(model => model.IdSolicitudNavigation.IdSolicitud)
-        </dd>
-        <dt class="col-sm-2 details-label">
-            @Html.DisplayNameFor(model => model.IdUsuarioNavigation)
-        </dt>
-        <dd class="col-sm-10 details-value">
-            @Html.DisplayFor(model => model.IdUsuarioNavigation.IdUsuario)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdNotificacion" class="btn btn-primary details-edit-button">Editar</a> |
-    <a asp-action="Index" class="btn btn-secondary details-return-button">Volver a la lista</a>
+        <dl class="row">
+            <dt class="col-sm-3">Mensaje</dt>
+            <dd class="col-sm-9">@Model.Mensaje</dd>
+
+            <dt class="col-sm-3">Fecha de Notificación</dt>
+            <dd class="col-sm-9">@Model.FechaNotificacion</dd>
+
+            <dt class="col-sm-3">Visto</dt>
+            <dd class="col-sm-9">@Model.Visto</dd>
+
+            <dt class="col-sm-3">Solicitud</dt>
+            <dd class="col-sm-9">@Model.IdSolicitudNavigation.IdSolicitud</dd>
+
+            <dt class="col-sm-3">Usuario</dt>
+            <dd class="col-sm-9">@Model.IdUsuarioNavigation.Nombre</dd>
+        </dl>
+
+        <div class="text-center">
+            <a asp-action="Edit" asp-route-id="@Model.IdNotificacion" class="btn btn-primary"><i class="bi bi-pencil"></i> Editar</a>
+            <a asp-action="Index" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Volver</a>
+        </div>
+    </div>
 </div>

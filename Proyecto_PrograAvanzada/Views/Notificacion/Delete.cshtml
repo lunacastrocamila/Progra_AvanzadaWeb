@@ -1,47 +1,33 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Notificacion
- 
-<h1 class ="delete-title">Eliminar</h1>
 
-<h3 class="delete-subtitle">¿Seguro(a) que deseas eliminar la notificación?</h3>
-<div class="delete-container">
-    <h4 class="delete-section">Notificacion</h4>
-    <hr />
-    <dl class="row delete-details">
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.Mensaje)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.Mensaje)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.FechaNotificacion)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.FechaNotificacion)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.Visto)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.Visto)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.IdSolicitudNavigation)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.IdSolicitudNavigation.IdSolicitud)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.IdUsuarioNavigation)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.IdUsuarioNavigation.IdUsuario)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete" class="delete-form">
-        <input type="hidden" asp-for="IdNotificacion" />
-        <input type="submit" value="Eliminar" class="btn btn-danger delete-button" /> |
-        <a asp-action="Index" class="btn btn-secondary return-button">Volver a la lista</a>
-    </form>
+<div class="container mt-4">
+    <div class="delete-container">
+        <h1 class="delete-title">Eliminar Notificación</h1>
+        <h3 class="delete-subtitle">¿Está seguro(a) de que desea eliminar esta notificación?</h3>
+
+        <dl class="row">
+            <dt class="col-sm-3">Mensaje</dt>
+            <dd class="col-sm-9">@Model.Mensaje</dd>
+
+            <dt class="col-sm-3">Fecha de Notificación</dt>
+            <dd class="col-sm-9">@Model.FechaNotificacion</dd>
+
+            <dt class="col-sm-3">Visto</dt>
+            <dd class="col-sm-9">@Model.Visto</dd>
+
+            <dt class="col-sm-3">Solicitud</dt>
+            <dd class="col-sm-9">@Model.IdSolicitudNavigation.IdSolicitud</dd>
+
+            <dt class="col-sm-3">Usuario</dt>
+            <dd class="col-sm-9">@Model.IdUsuarioNavigation.Nombre</dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="IdNotificacion" />
+            <div class="text-center">
+                <button type="submit" class="btn btn-danger"><i class="bi bi-trash"></i> Eliminar</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Cancelar</a>
+            </div>
+        </form>
+    </div>
 </div>
