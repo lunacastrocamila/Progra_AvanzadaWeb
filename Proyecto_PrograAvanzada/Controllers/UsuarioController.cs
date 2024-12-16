@@ -11,6 +11,8 @@ namespace Proyecto_PrograAvanzada.Controllers
 {
     public class UsuarioController : Controller
     {
+        private readonly ServiciosSoporteContext _context;
+
         public async Task<IActionResult> Login()
         {
             return View();
@@ -39,7 +41,30 @@ namespace Proyecto_PrograAvanzada.Controllers
             return View(usuario);
         }
 
-        private readonly ServiciosSoporteContext _context;
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> RegistrarCliente(Usuario nuevoUsuario)
+        {
+            if (ModelState.IsValid)
+            {
+                var usuarioExistente = await _context.Usuarios.FirstOrDefaultAsync(u => u.CorreoElectronico == nuevoUsuario.CorreoElectronico);
+                if (usuarioExistente != null)
+                {
+                    ViewBag.ErrorRegistro = "El correo electrónico ya está registrado.";
+                    ViewBag.ActiveTab = "register";
+                    return View("Login", nuevoUsuario);
+                }
+
+                _context.Add(nuevoUsuario);
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction("Login");
+            }
+
+            return View("Login", nuevoUsuario);
+        }
+
+
 
         public UsuarioController(ServiciosSoporteContext context)
         {

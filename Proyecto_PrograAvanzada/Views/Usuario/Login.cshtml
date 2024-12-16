@@ -1,24 +1,77 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Usuario
 
 <div class="container mt-5">
-    <h2>Iniciar Sesión</h2>
-    @if (!string.IsNullOrEmpty(ViewBag.Error))
-    {
-        <div class="alert alert-danger">@ViewBag.Error</div>
-    }
-    <form asp-action="Login" method="post">
-        <div class="form-group">
-            <label asp-for="CorreoElectronico"></label>
-            <input asp-for="CorreoElectronico" type="email" class="form-control" required />
-            <span asp-validation-for="CorreoElectronico" class="text-danger"></span>
+    <h2 class="text-center">Bienvenido a FideTech Soporte Técnico</h2>
+    <ul class="nav nav-tabs mt-4" id="authTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link @((ViewBag.ActiveTab == "login" || ViewBag.ActiveTab == null) ? "active" : "")"
+                    id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-controls="login"
+                    aria-selected="@(ViewBag.ActiveTab == "login" || ViewBag.ActiveTab == null)">
+                Iniciar Sesión
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link @(ViewBag.ActiveTab == "register" ? "active" : "")" id="register-tab"
+                    data-bs-toggle="tab" data-bs-target="#register" type="button" role="tab" aria-controls="register"
+                    aria-selected="@(ViewBag.ActiveTab == "register")">
+                Registrarse
+            </button>
+        </li>
+    </ul>
+
+    <div class="tab-content mt-4" id="authTabsContent">
+        <!-- Login Tab -->
+        <div class="tab-pane fade @(ViewBag.ActiveTab == "login" || ViewBag.ActiveTab == null ? "show active" : "")"
+             id="login" role="tabpanel" aria-labelledby="login-tab">
+            <h3>Iniciar Sesión</h3>
+            @if (!string.IsNullOrEmpty(ViewBag.Error))
+            {
+                <div class="alert alert-danger">@ViewBag.Error</div>
+            }
+            <form asp-action="Login" method="post">
+                <div class="form-group">
+                    <label asp-for="CorreoElectronico"></label>
+                    <input asp-for="CorreoElectronico" type="email" class="form-control" required />
+                    <span asp-validation-for="CorreoElectronico" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Contraseña"></label>
+                    <input asp-for="Contraseña" type="password" class="form-control" required />
+                    <span asp-validation-for="Contraseña" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Iniciar Sesión</button>
+            </form>
         </div>
-        <div class="form-group">
-            <label asp-for="Contraseña"></label>
-            <input asp-for="Contraseña" type="password" class="form-control" required />
-            <span asp-validation-for="Contraseña" class="text-danger"></span>
+
+        <!-- Register Tab -->
+        <div class="tab-pane fade @(ViewBag.ActiveTab == "register" ? "show active" : "")" id="register" role="tabpanel" aria-labelledby="register-tab">
+            <h3>Registrarse como Cliente</h3>
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorRegistro))
+            {
+                <div class="alert alert-danger">@ViewBag.ErrorRegistro</div>
+            }
+            <form asp-action="RegistrarCliente" method="post">
+                <input type="hidden" name="Rol" value="Cliente" /> <!-- Campo oculto para enviar el rol como Cliente -->
+                <div class="form-group">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre" name="Nombre" class="form-control" placeholder="Ingrese su nombre" required />
+                </div>
+                <div class="form-group">
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" id="Apellido" name="Apellido" class="form-control" placeholder="Ingrese su apellido" required />
+                </div>
+                <div class="form-group">
+                    <label for="CorreoElectronico">Correo Electrónico</label>
+                    <input type="email" id="CorreoElectronico" name="CorreoElectronico" class="form-control" placeholder="Ingrese su correo electrónico" required />
+                </div>
+                <div class="form-group">
+                    <label for="Contraseña">Contraseña</label>
+                    <input type="password" id="Contraseña" name="Contraseña" class="form-control" placeholder="Ingrese su contraseña" required />
+                </div>
+                <button type="submit" class="btn btn-success mt-3">Registrarse</button>
+            </form>
         </div>
-        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
-    </form>
+    </div>
 </div>
 
 @section Scripts {
