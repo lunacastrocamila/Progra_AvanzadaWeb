@@ -1,7 +1,6 @@
 # Ignorar directorios de build y dependencias
-/node_modules/
-Proyecto_PrograAvanzada/bin/
-Proyecto_PrograAvanzada/obj/
+bin/
+obj/
 Proyecto_PrograAvanzada/Debug/
 Proyecto_PrograAvanzada/Release/
 
