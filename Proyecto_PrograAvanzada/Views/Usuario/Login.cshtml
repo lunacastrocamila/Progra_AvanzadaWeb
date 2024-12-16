@@ -1,22 +1,26 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Usuario
 
-@{
-    ViewData["Title"] = "Login";
-}
-
 <div class="container mt-5">
-    <h2>Login</h2>
+    <h2>Iniciar Sesión</h2>
+    @if (!string.IsNullOrEmpty(ViewBag.Error))
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
     <form asp-action="Login" method="post">
-        <div class="mb-3">
-            <label for="CorreoElectronico" class="form-label">Correo Electrónico</label>
-            <input asp-for="CorreoElectronico" class="form-control" />
+        <div class="form-group">
+            <label asp-for="CorreoElectronico"></label>
+            <input asp-for="CorreoElectronico" type="email" class="form-control" required />
             <span asp-validation-for="CorreoElectronico" class="text-danger"></span>
         </div>
-        <div class="mb-3">
-            <label for="Contraseña" class="form-label">Contraseña</label>
-            <input asp-for="Contraseña" type="password" class="form-control" />
+        <div class="form-group">
+            <label asp-for="Contraseña"></label>
+            <input asp-for="Contraseña" type="password" class="form-control" required />
             <span asp-validation-for="Contraseña" class="text-danger"></span>
         </div>
         <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
     </form>
 </div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

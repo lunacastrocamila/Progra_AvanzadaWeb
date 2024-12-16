@@ -15,6 +15,11 @@ namespace Proyecto_PrograAvanzada.Controllers
 
         public IActionResult Index()
         {
+            if (HttpContext.Session.GetInt32("UserId") == null)
+            {
+                return RedirectToAction("Login", "Usuario");
+            }
+
             return View();
         }
 

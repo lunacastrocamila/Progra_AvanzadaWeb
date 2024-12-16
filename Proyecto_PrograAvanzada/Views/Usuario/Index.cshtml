@@ -1,72 +1,41 @@
 @model IEnumerable<Proyecto_PrograAvanzada.Models.Usuario>
 
-    <div class="container mt-4">
-        <div class="text-center nav-grid-container">
-            <div class="image-grid">
-                <a class="nav-link nav-item" asp-controller="Usuario" asp-action="Index">
-                    <img src="~/images/support1.jpg" alt="Soporte 1" class="rounded shadow" />
-                </a>
-                <a class="nav-link nav-item" asp-controller="Solicitud" asp-action="Index">
-                    <img src="~/images/support2.jpg" alt="Soporte 2" class="rounded shadow" />
-                </a>
-                <a class="nav-link nav-item" asp-controller="Notificacion" asp-action="Index">
-                    <img src="~/images/support3.jpg" alt="Soporte 3" class="rounded shadow" />
-                </a>
-                <a class="nav-link nav-item" asp-controller="Tecnico" asp-action="Index">
-                    <img src="~/images/support4.jpg" alt="Soporte 4" class="rounded shadow" />
-                </a>
-            </div>
-        </div>
-    </div>
-    <h1 class="animated-title">Usuarios</h1>
-<p class="add-new-link">
-    <a asp-action="Create" class="btn btn-primary">Agregar Nuevo</a>
+<h1>Usuarios</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Agregar Nuevo</a>
 </p>
-<table class="table table-hover assignment-table">
-    <thead class="table-header">
+
+<table class="table table-striped">
+    <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Apellido)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CorreoElectronico)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Contraseña)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Rol)
-            </th>
-            <th class="action-column"></th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Correo Electrónico</th>
+            <th>Rol</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Apellido)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CorreoElectronico)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Contraseña)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Rol)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdUsuario" class="btn btn-warning btn-sm">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.IdUsuario" class="btn btn-info btn-sm">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdUsuario" class="btn btn-danger btn-sm">Eliminar</a>
-            </td>
-        </tr>
-}
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>@usuario.Nombre</td>
+                <td>@usuario.Apellido</td>
+                <td>@usuario.CorreoElectronico</td>
+                <td>@usuario.Rol</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@usuario.IdUsuario" class="btn btn-warning btn-sm">
+                        <i class="bi bi-pencil-square"></i> Editar
+                    </a>
+                    <a asp-action="Details" asp-route-id="@usuario.IdUsuario" class="btn btn-info btn-sm">
+                        <i class="bi bi-eye"></i> Detalles
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@usuario.IdUsuario" class="btn btn-danger btn-sm">
+                        <i class="bi bi-trash"></i> Eliminar
+                    </a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

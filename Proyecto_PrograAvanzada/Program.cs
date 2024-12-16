@@ -34,7 +34,7 @@ app.UseRouting();
 
 // Habilitar sesiones en el pipeline
 app.UseSession();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
