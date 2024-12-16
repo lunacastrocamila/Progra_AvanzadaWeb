@@ -73,6 +73,7 @@ namespace Proyecto_PrograAvanzada.Controllers
         // GET: Usuario/Create
         public IActionResult Create()
         {
+            ViewBag.Roles = new List<string> { "Administrador", "Técnico", "Cliente" };
             return View();
         }
 
@@ -89,6 +90,7 @@ namespace Proyecto_PrograAvanzada.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewBag.Roles = new List<string> { "Administrador", "Técnico", "Cliente" };
             return View(usuario);
         }
 
