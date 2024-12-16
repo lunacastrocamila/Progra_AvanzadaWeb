@@ -1,41 +1,32 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Solicitud
 
-<h1>Agregar solicitud</h1>
+<div class="container mt-4">
+    <div class="form-container">
+        <h1 class="form-title">Agregar Solicitud</h1>
 
-<h4>Solicitud</h4>
-<hr />
-<div class="form-container">
-    <h4 class="form-title">Detalles de la solicitud</h4>
-    <hr />
-    <div class="row">
-        <div class="col-md-6 offset-md-3">
-            <form asp-action="Create" class="custom-form">
+        <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
             <div class="form-group">
-                <label asp-for="IdUsuario" class="control-label"></label>
-                <select asp-for="IdUsuario" class ="form-control" asp-items="ViewBag.IdUsuario"></select>
+                <label asp-for="IdUsuario"></label>
+                <select asp-for="IdUsuario" class="form-control" asp-items="ViewBag.IdUsuario"></select>
+                <span asp-validation-for="IdUsuario" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Descripcion" class="control-label"></label>
+                <label asp-for="Descripcion"></label>
                 <input asp-for="Descripcion" class="form-control" />
                 <span asp-validation-for="Descripcion" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Prioridad" class="control-label"></label>
+                <label asp-for="Prioridad"></label>
                 <input asp-for="Prioridad" class="form-control" />
                 <span asp-validation-for="Prioridad" class="text-danger"></span>
             </div>
-                <div class="form-group text-center">
-                    <input type="submit" value="Agregar" class="btn btn-primary custom-button" />
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-success"><i class="bi bi-check-circle"></i> Guardar</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Volver</a>
             </div>
         </form>
     </div>
 </div>
-</div>
-<div class="text-center mt-4">
-    <a asp-action="Index" class="btn btn-secondary return-button">Volver a la lista</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}

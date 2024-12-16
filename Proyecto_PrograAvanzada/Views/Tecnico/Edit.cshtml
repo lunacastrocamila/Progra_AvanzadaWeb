@@ -1,37 +1,28 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Tecnico
 
-<h1 class="edit-title">Edit</h1>
+<div class="container mt-4">
+    <div class="form-container">
+        <h1 class="form-title">Editar Técnico</h1>
 
-<div class="edit-container">
-    <h4 class="edit-section-title">Detalles del tecnico</h4>
-    <hr class="edit-divider" />
-<div class="row">
-        <div class="col-md-6 edit-form-container">
-            <form asp-action="Edit" class="edit-form">
-                <div asp-validation-summary="ModelOnly" class="text-danger edit-validation-summary"></div>
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="IdTecnico" />
 
-                <div class="form-group edit-field-group">
-                    <label asp-for="IdUsuario" class="control-label edit-label"></label>
-                    <select asp-for="IdUsuario" class="form-control edit-select" asp-items="ViewBag.IdUsuario"></select>
-                    <span asp-validation-for="IdUsuario" class="text-danger edit-validation-message"></span>
+            <div class="form-group">
+                <label asp-for="IdUsuario"></label>
+                <select asp-for="IdUsuario" class="form-control" asp-items="ViewBag.IdUsuario"></select>
+                <span asp-validation-for="IdUsuario" class="text-danger"></span>
             </div>
-                <div class="form-group edit-field-group">
-                    <label asp-for="Especialidad" class="control-label edit-label"></label>
-                    <input asp-for="Especialidad" class="form-control edit-select" />
-                    <span asp-validation-for="Especialidad" class="text-danger edit-validation-message"></span>
+            <div class="form-group">
+                <label asp-for="Especialidad"></label>
+                <input asp-for="Especialidad" class="form-control" />
+                <span asp-validation-for="Especialidad" class="text-danger"></span>
             </div>
-                <div class="form-group edit-field-group">
-                    <input type="submit" value="Guardar" class="btn btn-primary edit-save-button" />
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-success"><i class="bi bi-check-circle"></i> Guardar</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Volver</a>
             </div>
         </form>
     </div>
 </div>
-</div>
-<div class="edit-back-container">
-    <a asp-action="Index" class="btn btn-secondary edit-back-button">Volver a la lista</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}

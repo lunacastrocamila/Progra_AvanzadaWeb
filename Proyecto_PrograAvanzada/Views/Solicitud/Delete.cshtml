@@ -1,47 +1,33 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Solicitud
 
-<h1 class="delete-title">Eliminar</h1>
+<div class="container mt-4">
+    <div class="delete-container">
+        <h1 class="delete-title">Eliminar Solicitud</h1>
+        <h3 class="delete-subtitle">¿Está seguro(a) de que desea eliminar esta solicitud?</h3>
 
-<h3 class="delete-subtitle">¿Seguro(a) que deseas eliminar la solicitud?</h3>
-<div class="delete-container">
-    <h4 class="delete-section">Solicitud</h4>
-    <hr />
-    <dl class="row delete-details">
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.Descripcion)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.Descripcion)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.FechaCreacion)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.FechaCreacion)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.Estado)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.Estado)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.Prioridad)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.Prioridad)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.IdUsuarioNavigation)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.IdUsuarioNavigation.IdUsuario)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete" class="delete-form">
-        <input type="hidden" asp-for="IdSolicitud" />
-        <input type="submit" value="Eliminar" class="btn btn-danger delete-button" /> |
-        <a asp-action="Index" class="btn btn-secondary return-button">Volver a la lista</a>
-    </form>
+        <dl class="row">
+            <dt class="col-sm-3">Descripción</dt>
+            <dd class="col-sm-9">@Model.Descripcion</dd>
+
+            <dt class="col-sm-3">Fecha de Creación</dt>
+            <dd class="col-sm-9">@Model.FechaCreacion</dd>
+
+            <dt class="col-sm-3">Estado</dt>
+            <dd class="col-sm-9">@Model.Estado</dd>
+
+            <dt class="col-sm-3">Prioridad</dt>
+            <dd class="col-sm-9">@Model.Prioridad</dd>
+
+            <dt class="col-sm-3">Usuario</dt>
+            <dd class="col-sm-9">@Model.IdUsuarioNavigation.Nombre</dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="IdSolicitud" />
+            <div class="text-center">
+                <button type="submit" class="btn btn-danger"><i class="bi bi-trash"></i> Eliminar</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Cancelar</a>
+            </div>
+        </form>
+    </div>
 </div>

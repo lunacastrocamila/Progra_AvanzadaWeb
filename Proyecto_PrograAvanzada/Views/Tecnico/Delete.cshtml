@@ -1,29 +1,24 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Tecnico
 
-<h1 class="delete-title">Eliminar</h1>
+<div class="container mt-4">
+    <div class="delete-container">
+        <h1 class="delete-title">Eliminar Técnico</h1>
+        <h3 class="delete-subtitle">¿Está seguro(a) de que desea eliminar este técnico?</h3>
 
-<h3 class="delete-subtitle">¿Seguro(a) que desea eliminar el técnico?</h3>
-<div class="delete-container">
-    <h4 class="delete-section">Tecnico</h4>
-    <hr />
-    <dl class="row delete-details">
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.Especialidad)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.Especialidad)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.IdUsuarioNavigation)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.IdUsuarioNavigation.IdUsuario)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete" class="delete-form">
-        <input type="hidden" asp-for="IdTecnico" />
-        <input type="submit" value="Eliminar" class="btn btn-danger delete-button" /> |
-        <a asp-action="Index" class="btn btn-secondary return-button">Volver a la lista</a>
-    </form>
+        <dl class="row">
+            <dt class="col-sm-3">Especialidad</dt>
+            <dd class="col-sm-9">@Model.Especialidad</dd>
+
+            <dt class="col-sm-3">Usuario</dt>
+            <dd class="col-sm-9">@Model.IdUsuarioNavigation.Nombre</dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="IdTecnico" />
+            <div class="text-center">
+                <button type="submit" class="btn btn-danger"><i class="bi bi-trash"></i> Eliminar</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Cancelar</a>
+            </div>
+        </form>
+    </div>
 </div>
