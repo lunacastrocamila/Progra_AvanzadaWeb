@@ -45,33 +45,41 @@ namespace Proyecto_PrograAvanzada.Controllers
             return View(asignacion);
         }
 
-        // GET: Asignacions/Create
+        //// GET: Asignacions/Create
         public IActionResult Create()
         {
-            ViewData["IdSolicitud"] = new SelectList(_context.Solicitudes, "IdSolicitud", "IdSolicitud");
-            ViewData["IdTecnico"] = new SelectList(_context.Tecnicos, "IdTecnico", "IdTecnico");
+            ViewData["IdSolicitud"] = new SelectList(_context.Solicitudes, "IdSolicitud", "Descripcion");
+            ViewData["IdTecnico"] = new SelectList(
+                _context.Tecnicos.Include(t => t.IdUsuarioNavigation),
+                "IdTecnico",
+                "IdUsuarioNavigation.Nombre"
+            );
             return View();
         }
 
-        // POST: Asignacions/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        //// POST: Asignacions/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("IdAsignacion,IdSolicitud,IdTecnico,FechaAsignacion,FechaInicio,FechaCierre")] Asignacion asignacion)
         {
             if (ModelState.IsValid)
             {
+                asignacion.FechaAsignacion = DateTime.Now; // Agregar fecha de asignación automática
                 _context.Add(asignacion);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdSolicitud"] = new SelectList(_context.Solicitudes, "IdSolicitud", "IdSolicitud", asignacion.IdSolicitud);
-            ViewData["IdTecnico"] = new SelectList(_context.Tecnicos, "IdTecnico", "IdTecnico", asignacion.IdTecnico);
+            ViewData["IdSolicitud"] = new SelectList(_context.Solicitudes, "IdSolicitud", "Descripcion", asignacion.IdSolicitud);
+            ViewData["IdTecnico"] = new SelectList(
+                _context.Tecnicos.Include(t => t.IdUsuarioNavigation),
+                "IdTecnico",
+                "IdUsuarioNavigation.Nombre",
+                asignacion.IdTecnico
+            );
             return View(asignacion);
         }
 
-        // GET: Asignacions/Edit/5
+        //// GET: Asignacions/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -84,14 +92,18 @@ namespace Proyecto_PrograAvanzada.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdSolicitud"] = new SelectList(_context.Solicitudes, "IdSolicitud", "IdSolicitud", asignacion.IdSolicitud);
-            ViewData["IdTecnico"] = new SelectList(_context.Tecnicos, "IdTecnico", "IdTecnico", asignacion.IdTecnico);
+            ViewData["IdSolicitud"] = new SelectList(_context.Solicitudes, "IdSolicitud", "Descripcion", asignacion.IdSolicitud);
+            ViewData["IdTecnico"] = new SelectList(
+                _context.Tecnicos.Include(t => t.IdUsuarioNavigation),
+                "IdTecnico",
+                "IdUsuarioNavigation.Nombre",
+                asignacion.IdTecnico
+            );
             return View(asignacion);
         }
 
+
         // POST: Asignacions/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("IdAsignacion,IdSolicitud,IdTecnico,FechaAsignacion,FechaInicio,FechaCierre")] Asignacion asignacion)
@@ -121,10 +133,16 @@ namespace Proyecto_PrograAvanzada.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdSolicitud"] = new SelectList(_context.Solicitudes, "IdSolicitud", "IdSolicitud", asignacion.IdSolicitud);
-            ViewData["IdTecnico"] = new SelectList(_context.Tecnicos, "IdTecnico", "IdTecnico", asignacion.IdTecnico);
+            ViewData["IdSolicitud"] = new SelectList(_context.Solicitudes, "IdSolicitud", "Descripcion", asignacion.IdSolicitud);
+            ViewData["IdTecnico"] = new SelectList(
+                _context.Tecnicos.Include(t => t.IdUsuarioNavigation),
+                "IdTecnico",
+                "IdUsuarioNavigation.Nombre",
+                asignacion.IdTecnico
+            );
             return View(asignacion);
         }
+
 
         // GET: Asignacions/Delete/5
         public async Task<IActionResult> Delete(int? id)

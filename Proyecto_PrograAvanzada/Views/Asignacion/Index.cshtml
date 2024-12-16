@@ -1,4 +1,8 @@
-﻿@model IEnumerable<Proyecto_PrograAvanzada.Models.Asignacion>
+﻿@{
+    ViewData["Title"] = "Asignación";
+}
+
+@model IEnumerable<Proyecto_PrograAvanzada.Models.Asignacion>
 
 <div class="container mt-4">
     <h1 class="text-center">Asignaciones</h1>
@@ -22,11 +26,11 @@
             @foreach (var asignacion in Model)
             {
                 <tr>
-                    <td>@asignacion.FechaAsignacion</td>
-                    <td>@asignacion.FechaInicio</td>
-                    <td>@asignacion.FechaCierre</td>
-                    <td>@asignacion.IdSolicitudNavigation?.IdSolicitud</td>
-                    <td>@asignacion.IdTecnicoNavigation?.IdUsuarioNavigation?.Nombre</td>
+                    <td>@asignacion.FechaAsignacion?.ToString("dd/MM/yyyy")</td>
+                    <td>@asignacion.FechaInicio?.ToString("dd/MM/yyyy")</td>
+                    <td>@asignacion.FechaCierre?.ToString("dd/MM/yyyy")</td>
+                    <td>@asignacion.IdSolicitudNavigation?.Descripcion</td>
+                    <td>@asignacion.IdTecnicoNavigation?.IdUsuarioNavigation?.Nombre @asignacion.IdTecnicoNavigation?.IdUsuarioNavigation?.Apellido</td>
                     <td>
                         <a asp-action="Edit" asp-route-id="@asignacion.IdAsignacion" class="btn btn-warning btn-sm">
                             <i class="bi bi-pencil-square"></i> Editar

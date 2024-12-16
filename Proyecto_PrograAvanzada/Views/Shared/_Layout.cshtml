@@ -38,6 +38,12 @@
                                 <li class="nav-item">
                                     <a class="nav-link" asp-controller="HistorialEstado" asp-action="Index"><i class="bi bi-clock-history"></i> Historiales</a>
                                 </li>
+                                <!-- Menú de reportes -->
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="ReporteSolicitudDetalle" asp-action="SolicitudesPorTecnico">
+                                        <i class="bi bi-graph-up"></i> Reportes de Solicitudes
+                                    </a>
+                                </li>
                             }
 
                             @if (userRole == "Técnico" || userRole == "Administrador")
