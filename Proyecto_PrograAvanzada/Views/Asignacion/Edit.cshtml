@@ -1,60 +1,43 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Asignacion
 
-<h1 class="edit-title">Editar Asignación</h1>
+<div class="container mt-4">
+    <div class="form-container">
+        <h1 class="form-title">Editar Asignación</h1>
 
-<div class="edit-container">
-    <h4 class="edit-section-title">Detalles de la Asignación</h4>
-    <hr class="edit-divider" />
-    <div class="row">
-        <div class="col-md-6 edit-form-container">
-            <form asp-action="Edit" class="edit-form">
-                <div asp-validation-summary="ModelOnly" class="text-danger edit-validation-summary"></div>
-                <input type="hidden" asp-for="IdAsignacion" />
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdAsignacion" />
 
-                <div class="form-group edit-field-group">
-                    <label asp-for="IdSolicitud" class="control-label edit-label"></label>
-                    <select asp-for="IdSolicitud" class="form-control edit-select" asp-items="ViewBag.IdSolicitud"></select>
-                    <span asp-validation-for="IdSolicitud" class="text-danger edit-validation-message"></span>
-                </div>
+            <div class="form-group">
+                <label asp-for="IdSolicitud"></label>
+                <select asp-for="IdSolicitud" class="form-control" asp-items="ViewBag.IdSolicitud"></select>
+                <span asp-validation-for="IdSolicitud" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdTecnico"></label>
+                <select asp-for="IdTecnico" class="form-control" asp-items="ViewBag.IdTecnico"></select>
+                <span asp-validation-for="IdTecnico" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaAsignacion"></label>
+                <input asp-for="FechaAsignacion" type="date" class="form-control" />
+                <span asp-validation-for="FechaAsignacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaInicio"></label>
+                <input asp-for="FechaInicio" type="date" class="form-control" />
+                <span asp-validation-for="FechaInicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaCierre"></label>
+                <input asp-for="FechaCierre" type="date" class="form-control" />
+                <span asp-validation-for="FechaCierre" class="text-danger"></span>
+            </div>
 
-                <div class="form-group edit-field-group">
-                    <label asp-for="IdTecnico" class="control-label edit-label"></label>
-                    <select asp-for="IdTecnico" class="form-control edit-select" asp-items="ViewBag.IdTecnico"></select>
-                    <span asp-validation-for="IdTecnico" class="text-danger edit-validation-message"></span>
-                </div>
-
-                <div class="form-group edit-field-group">
-                    <label asp-for="FechaAsignacion" class="control-label edit-label"></label>
-                    <input asp-for="FechaAsignacion" class="form-control edit-input" />
-                    <span asp-validation-for="FechaAsignacion" class="text-danger edit-validation-message"></span>
-                </div>
-
-                <div class="form-group edit-field-group">
-                    <label asp-for="FechaInicio" class="control-label edit-label"></label>
-                    <input asp-for="FechaInicio" class="form-control edit-input" />
-                    <span asp-validation-for="FechaInicio" class="text-danger edit-validation-message"></span>
-                </div>
-
-                <div class="form-group edit-field-group">
-                    <label asp-for="FechaCierre" class="control-label edit-label"></label>
-                    <input asp-for="FechaCierre" class="form-control edit-input" />
-                    <span asp-validation-for="FechaCierre" class="text-danger edit-validation-message"></span>
-                </div>
-
-                <div class="form-group edit-button-group">
-                    <input type="submit" value="Guardar" class="btn btn-primary edit-save-button" />
-                </div>
-            </form>
-        </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-success"><i class="bi bi-check-circle"></i> Guardar</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Volver</a>
+            </div>
+        </form>
     </div>
 </div>
-
-<div class="edit-back-container">
-    <a asp-action="Index" class="btn btn-secondary edit-back-button">Volver a la lista</a>
-</div>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}

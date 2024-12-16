@@ -1,47 +1,33 @@
 ﻿@model Proyecto_PrograAvanzada.Models.Asignacion
 
-<h1 class="delete-title">Eliminar</h1>
+<div class="container mt-4">
+    <div class="delete-container">
+        <h1 class="delete-title">Eliminar Asignación</h1>
+        <h3 class="delete-subtitle">¿Está seguro(a) de que desea eliminar esta asignación?</h3>
 
-<h3 class="delete-subtitle">¿Seguro(a) que desea eliminar la asignación?</h3>
-<div class="delete-container">
-    <h4 class="delete-section">Asignación</h4>
-    <hr />
-    <dl class="row delete-details">
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.FechaAsignacion)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.FechaAsignacion)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.FechaInicio)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.FechaInicio)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.FechaCierre)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.FechaCierre)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.IdSolicitudNavigation)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.IdSolicitudNavigation.IdSolicitud)
-        </dd>
-        <dt class="col-sm-2 delete-label">
-            @Html.DisplayNameFor(model => model.IdTecnicoNavigation)
-        </dt>
-        <dd class="col-sm-10 delete-value">
-            @Html.DisplayFor(model => model.IdTecnicoNavigation.IdTecnico)
-        </dd>
-    </dl>
+        <dl class="row">
+            <dt class="col-sm-3">Fecha de Asignación</dt>
+            <dd class="col-sm-9">@Model.FechaAsignacion</dd>
 
-    <form asp-action="Delete" class="delete-form">
-        <input type="hidden" asp-for="IdAsignacion" />
-        <input type="submit" value="Eliminar" class="btn btn-danger delete-button" /> |
-        <a asp-action="Index" class="btn btn-secondary return-button">Volver a la lista</a>
-    </form>
+            <dt class="col-sm-3">Fecha de Inicio</dt>
+            <dd class="col-sm-9">@Model.FechaInicio</dd>
+
+            <dt class="col-sm-3">Fecha de Cierre</dt>
+            <dd class="col-sm-9">@Model.FechaCierre</dd>
+
+            <dt class="col-sm-3">Solicitud</dt>
+            <dd class="col-sm-9">@Model.IdSolicitudNavigation?.IdSolicitud</dd>
+
+            <dt class="col-sm-3">Técnico</dt>
+            <dd class="col-sm-9">@Model.IdTecnicoNavigation?.IdUsuarioNavigation?.Nombre</dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="IdAsignacion" />
+            <div class="text-center">
+                <button type="submit" class="btn btn-danger"><i class="bi bi-trash"></i> Eliminar</button>
+                <a asp-action="Index" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Cancelar</a>
+            </div>
+        </form>
+    </div>
 </div>

@@ -1,70 +1,37 @@
 ﻿@model IEnumerable<Proyecto_PrograAvanzada.Models.HistorialEstado>
-<h1 class="animated-title">Historial de Estado</h1>
+
 <div class="container mt-4">
-    <div class="text-center">
-        <div class="image-grid">
-            <a class="nav-link" asp-controller="Usuario" asp-action="Index">
-                <img src="~/images/support1.jpg" alt="Soporte 1" class="rounded shadow" />
-            </a>
-            <a class="nav-link" asp-controller="Solicitud" asp-action="Index">
-                <img src="~/images/support2.jpg" alt="Soporte 2" class="rounded shadow" />
-            </a>
-            <a class="nav-link" asp-controller="Notificacion" asp-action="Index">
-                <img src="~/images/support3.jpg" alt="Soporte 3" class="rounded shadow" />
-            </a>
-            <a class="nav-link" asp-controller="Tecnico" asp-action="Index">
-                <img src="~/images/support4.jpg" alt="Soporte 4" class="rounded shadow" />
-            </a>
-        </div>
-    </div>
-<p>
-    <a asp-action="Create">Agregar Nuevo</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.EstadoAnterior)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EstadoNuevo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.FechaCambio)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Comentarios)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdSolicitudNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.EstadoAnterior)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EstadoNuevo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FechaCambio)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Comentarios)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdSolicitudNavigation.IdSolicitud)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdHistorial">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.IdHistorial">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdHistorial">Eliminar</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <h1 class="animated-title">Historial de Estados</h1>
+    <p class="add-new-link">
+        <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Agregar Nuevo</a>
+    </p>
+    <table class="table table-hover assignment-table">
+        <thead class="table-header">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.EstadoAnterior)</th>
+                <th>@Html.DisplayNameFor(model => model.EstadoNuevo)</th>
+                <th>@Html.DisplayNameFor(model => model.FechaCambio)</th>
+                <th>@Html.DisplayNameFor(model => model.Comentarios)</th>
+                <th>@Html.DisplayNameFor(model => model.IdSolicitudNavigation)</th>
+                <th class="action-column"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.EstadoAnterior)</td>
+                    <td>@Html.DisplayFor(modelItem => item.EstadoNuevo)</td>
+                    <td>@Html.DisplayFor(modelItem => item.FechaCambio)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Comentarios)</td>
+                    <td>@Html.DisplayFor(modelItem => item.IdSolicitudNavigation.Descripcion)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.IdHistorial" class="btn btn-warning btn-sm">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.IdHistorial" class="btn btn-info btn-sm">Detalles</a> |
+                        <a asp-action="Delete" asp-route-id="@item.IdHistorial" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
