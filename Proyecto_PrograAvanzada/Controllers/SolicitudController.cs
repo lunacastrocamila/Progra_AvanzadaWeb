@@ -47,7 +47,6 @@ namespace Proyecto_PrograAvanzada.Controllers
         // GET: Solicitud/Create
         public IActionResult Create()
         {
-            ViewData["IdUsuario"] = new SelectList(_context.Usuarios, "IdUsuario", "IdUsuario");
             return View();
         }
 
@@ -56,15 +55,30 @@ namespace Proyecto_PrograAvanzada.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdSolicitud,IdUsuario,Descripcion,FechaCreacion,Estado,Prioridad")] Solicitud solicitud)
+        public async Task<IActionResult> Create([Bind("IdSolicitud,Descripcion,FechaCreacion,Estado,Prioridad")] Solicitud solicitud)
         {
             if (ModelState.IsValid)
             {
+                // Obtener el IdUsuario desde la sesión
+                var userId = HttpContext.Session.GetInt32("UserId");
+                if (userId == null)
+                {
+                    // Manejo en caso de que el usuario no esté logueado
+                    return RedirectToAction("Login", "Usuario");
+                }
+
+                // Asignar el usuario logueado a la solicitud
+                solicitud.IdUsuario = userId.Value;
+
+                // Asignar la fecha de creación actual
+                solicitud.FechaCreacion = DateTime.Now;
+
                 _context.Add(solicitud);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdUsuario"] = new SelectList(_context.Usuarios, "IdUsuario", "IdUsuario", solicitud.IdUsuario);
+
+            // No necesitamos pasar ViewData["IdUsuario"] aquí porque ya lo asignamos
             return View(solicitud);
         }
 
