@@ -1,50 +1,42 @@
 ﻿@model IEnumerable<Proyecto_PrograAvanzada.Models.Asignacion>
 
 <div class="container mt-4">
-    <div class="text-center nav-grid-container">
-        <div class="nav-grid">
-            <a class="nav-link nav-item" asp-controller="Usuario" asp-action="Index">
-                <img src="~/images/support1.jpg" alt="Soporte 1" class="rounded shadow nav-image" />
-            </a>
-            <a class="nav-link nav-item" asp-controller="Solicitud" asp-action="Index">
-                <img src="~/images/support2.jpg" alt="Soporte 2" class="rounded shadow nav-image" />
-            </a>
-            <a class="nav-link nav-item" asp-controller="Notificacion" asp-action="Index">
-                <img src="~/images/support3.jpg" alt="Soporte 3" class="rounded shadow nav-image" />
-            </a>
-            <a class="nav-link nav-item" asp-controller="Tecnico" asp-action="Index">
-                <img src="~/images/support4.jpg" alt="Soporte 4" class="rounded shadow nav-image" />
-            </a>
-        </div>
-    </div>
-    <h1 class="animated-title">Asignaciones</h1>
-    <p class="add-new-link">
-        <a asp-action="Create" class="btn btn-primary">Agregar Nueva</a>
+    <h1 class="text-center">Asignaciones</h1>
+
+    <p class="text-end">
+        <a asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Agregar Nueva</a>
     </p>
-    <table class="table table-hover assignment-table">
-        <thead class="table-header">
+
+    <table class="table table-striped table-bordered shadow-sm">
+        <thead class="table-primary">
             <tr>
-                <th>@Html.DisplayNameFor(model => model.FechaAsignacion)</th>
-                <th>@Html.DisplayNameFor(model => model.FechaInicio)</th>
-                <th>@Html.DisplayNameFor(model => model.FechaCierre)</th>
-                <th>@Html.DisplayNameFor(model => model.IdSolicitudNavigation)</th>
-                <th>@Html.DisplayNameFor(model => model.IdTecnicoNavigation)</th>
-                <th class="action-column"></th>
+                <th>Fecha de Asignación</th>
+                <th>Fecha de Inicio</th>
+                <th>Fecha de Cierre</th>
+                <th>Solicitud</th>
+                <th>Técnico</th>
+                <th>Acciones</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model)
+            @foreach (var asignacion in Model)
             {
                 <tr>
-                    <td>@Html.DisplayFor(modelItem => item.FechaAsignacion)</td>
-                    <td>@Html.DisplayFor(modelItem => item.FechaInicio)</td>
-                    <td>@Html.DisplayFor(modelItem => item.FechaCierre)</td>
-                    <td>@Html.DisplayFor(modelItem => item.IdSolicitudNavigation.IdSolicitud)</td>
-                    <td>@Html.DisplayFor(modelItem => item.IdTecnicoNavigation.IdTecnico)</td>
+                    <td>@asignacion.FechaAsignacion</td>
+                    <td>@asignacion.FechaInicio</td>
+                    <td>@asignacion.FechaCierre</td>
+                    <td>@asignacion.IdSolicitudNavigation?.IdSolicitud</td>
+                    <td>@asignacion.IdTecnicoNavigation?.IdUsuarioNavigation?.Nombre</td>
                     <td>
-                        <a asp-action="Edit" asp-route-id="@item.IdAsignacion" class="btn btn-warning btn-sm">Editar</a> |
-                        <a asp-action="Details" asp-route-id="@item.IdAsignacion" class="btn btn-info btn-sm">Detalles</a> |
-                        <a asp-action="Delete" asp-route-id="@item.IdAsignacion" class="btn btn-danger btn-sm">Eliminar</a>
+                        <a asp-action="Edit" asp-route-id="@asignacion.IdAsignacion" class="btn btn-warning btn-sm">
+                            <i class="bi bi-pencil-square"></i> Editar
+                        </a>
+                        <a asp-action="Details" asp-route-id="@asignacion.IdAsignacion" class="btn btn-info btn-sm">
+                            <i class="bi bi-eye"></i> Detalles
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@asignacion.IdAsignacion" class="btn btn-danger btn-sm">
+                            <i class="bi bi-trash"></i> Eliminar
+                        </a>
                     </td>
                 </tr>
             }
