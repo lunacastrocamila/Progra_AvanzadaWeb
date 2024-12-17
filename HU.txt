@@ -1,0 +1,25 @@
+Autenticación de Usuarios
+AU-0001: Como cliente, quiero poder registrarme e iniciar sesión en el sistema, para acceder a mis solicitudes de soporte y ver su estado.
+AU-0002: Como técnico, quiero poder iniciar sesión en el sistema con mi rol asignado, para gestionar las solicitudes de soporte asignadas a mí.
+AU-0003: Como administrador, quiero poder gestionar los roles de usuario, para asegurar que cada usuario tenga acceso solo a las funcionalidades que necesita.
+
+Gestión de Solicitudes de Soporte
+GS-0001: Como cliente, quiero poder crear una solicitud de soporte, para reportar un problema técnico que necesito que se resuelva.
+GS-0002: Como técnico, quiero poder ver una lista de las solicitudes de soporte asignadas a mí, para gestionar y resolver cada una de manera organizada.
+GS-0003: Como cliente, quiero poder ver el estado de mis solicitudes de soporte, para saber si están en proceso o ya fueron resueltas.
+
+Estados de Solicitudes
+ES-0001: Como técnico, quiero poder cambiar el estado de una solicitud de soporte (por asignar, en progreso, resuelto, cerrado), para reflejar el avance en su resolución.
+ES-0002: Como cliente, quiero recibir notificaciones cuando el estado de mi solicitud de soporte cambie, para mantenerme informado sobre el progreso.
+
+Asignación de Técnicos
+AT-0001: Como administrador, quiero poder asignar técnicos a las solicitudes de soporte, para asegurarme de que cada solicitud sea atendida por un técnico disponible.
+AT-0002: Como técnico, quiero recibir una notificación cuando se me asigne una nueva solicitud de soporte, para saber cuándo debo atender una nueva incidencia.
+
+Panel de Control
+PC-0001: Como técnico, quiero tener un panel de control con una vista de mis solicitudes de soporte y sus estados, para gestionar mis tareas de forma eficiente.
+PC-0002: Como cliente, quiero tener un panel de control donde pueda ver mis solicitudes de soporte y sus respectivos estados, para monitorear el avance de mis incidencias.
+
+Reportes y Monitoreo
+RM-0001: Como administrador, quiero poder generar reportes de eficiencia y solución de problemas, para evaluar el rendimiento de los técnicos y mejorar los tiempos de respuesta.
+RM-0002: Como administrador, quiero poder visualizar el flujo de trabajo de los técnicos, para identificar cuellos de botella o áreas que necesitan recursos adicionales.
